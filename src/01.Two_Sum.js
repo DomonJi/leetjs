@@ -6,13 +6,11 @@
  * @param {number} target
  * @return {number[]}
  */
-let twoSum = (nums, target) => {
-  let hash = {}
-  let match
-  for (let i = 0; i < nums.length; i++) {
-    match = hash[target-nums[i]]
-    if(match!==undefined) return [match,i]
-    hash[nums[i]] = i
+let twoSum = function (nums, target) {
+  let hash = {}, match
+  for (let i = 0; i < nums.length; hash[nums[i++]] = i) {
+    match = hash[target - nums[i]]
+    if (match !== undefined) return [match - 1, i]
   }
 }
 export default twoSum
