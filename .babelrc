@@ -1,5 +1,4 @@
 {
-  "presets": ["es2015","stage-3","babel-preset-power-assert"],
-  "plugins": ["babel-plugin-espower"],
+  "presets": ["es2015","babel-preset-power-assert"],
   "comments": false
 }
