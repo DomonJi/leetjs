@@ -12,3 +12,4 @@ let lengthOfLongestSubstring = function (s) {
   }
   return res
 }
+export default lengthOfLongestSubstring
