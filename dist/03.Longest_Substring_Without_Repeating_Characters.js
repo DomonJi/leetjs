@@ -1,5 +1,8 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 /**
  * Created by Domon on 17/4/8.
  */
@@ -17,3 +20,4 @@ var lengthOfLongestSubstring = function lengthOfLongestSubstring(s) {
   }
   return res;
 };
+exports.default = lengthOfLongestSubstring;
